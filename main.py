@@ -33,7 +33,6 @@ def main():
 
     # Initialize the OpenAI client
     client = OpenAI(api_key=st.session_state.openai_api_key)
-    assistant_id = "asst_gvGf4llXRv3Z1E9LtjimZjfQ"
 
     def interact_with_assistant(prompt):
         response = client.chat.completions.create(
