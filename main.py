@@ -1,6 +1,3 @@
-pip install openai
-pip install python-dotenv
-
 import os
 import streamlit as st
 from openai import OpenAI
